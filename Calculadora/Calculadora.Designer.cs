@@ -216,7 +216,7 @@
             this.btnSoma.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSoma.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSoma.ForeColor = System.Drawing.Color.White;
-            this.btnSoma.Location = new System.Drawing.Point(249, 198);
+            this.btnSoma.Location = new System.Drawing.Point(249, 243);
             this.btnSoma.Name = "btnSoma";
             this.btnSoma.Size = new System.Drawing.Size(75, 40);
             this.btnSoma.TabIndex = 13;
@@ -229,7 +229,7 @@
             this.btnSub.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSub.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSub.ForeColor = System.Drawing.Color.White;
-            this.btnSub.Location = new System.Drawing.Point(249, 244);
+            this.btnSub.Location = new System.Drawing.Point(248, 197);
             this.btnSub.Name = "btnSub";
             this.btnSub.Size = new System.Drawing.Size(75, 40);
             this.btnSub.TabIndex = 12;
@@ -242,7 +242,7 @@
             this.btnDiv.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDiv.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDiv.ForeColor = System.Drawing.Color.White;
-            this.btnDiv.Location = new System.Drawing.Point(248, 156);
+            this.btnDiv.Location = new System.Drawing.Point(249, 109);
             this.btnDiv.Name = "btnDiv";
             this.btnDiv.Size = new System.Drawing.Size(75, 36);
             this.btnDiv.TabIndex = 18;
@@ -294,7 +294,7 @@
             this.btnMulti.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnMulti.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMulti.ForeColor = System.Drawing.Color.White;
-            this.btnMulti.Location = new System.Drawing.Point(248, 110);
+            this.btnMulti.Location = new System.Drawing.Point(249, 151);
             this.btnMulti.Name = "btnMulti";
             this.btnMulti.Size = new System.Drawing.Size(75, 40);
             this.btnMulti.TabIndex = 11;
