@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
 namespace Calculadora
@@ -41,6 +37,24 @@ namespace Calculadora
             {
                 double div = Convert.ToDouble(result[0]) / Convert.ToDouble(result[1]);
                 txtResult.Text = div.ToString();
+            }
+            else if (txtResult.Text.Contains('%'))
+            {
+                string expr = txtResult.Text;
+                if (expr.Contains("-"))
+                {
+                    string[] parts = expr.Split('-');
+
+                    double baseValue = Convert.ToDouble(parts[0].Trim());  // 6
+                    string percStr = parts[1].Replace("%", "").Trim();     // "8"
+
+                    if (double.TryParse(percStr, out double perc))
+                    {
+                        double percentValue = (baseValue * perc) / 100.0; // 0,48
+                        double resultFinal = baseValue - percentValue;    // 5,52
+                        txtResult.Text = resultFinal.ToString();
+                    }
+                }
             }
         }
 
@@ -82,11 +96,6 @@ namespace Calculadora
             {
                 txtResult.Text = txtResult.Text.Substring(0, txtResult.Text.Length - 1);
             }
-        }
-
-        private void btnSub_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
