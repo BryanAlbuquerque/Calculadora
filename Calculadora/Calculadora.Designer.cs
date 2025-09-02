@@ -53,8 +53,8 @@
             // 
             // btnSeven
             // 
-            this.btnSeven.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnSeven.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSeven.BackColor = System.Drawing.Color.Black;
+            this.btnSeven.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeven.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSeven.ForeColor = System.Drawing.Color.White;
             this.btnSeven.Location = new System.Drawing.Point(6, 224);
@@ -66,8 +66,8 @@
             // 
             // btnEight
             // 
-            this.btnEight.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnEight.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnEight.BackColor = System.Drawing.Color.Black;
+            this.btnEight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEight.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEight.ForeColor = System.Drawing.Color.White;
             this.btnEight.Location = new System.Drawing.Point(87, 224);
@@ -79,8 +79,8 @@
             // 
             // btnNine
             // 
-            this.btnNine.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnNine.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnNine.BackColor = System.Drawing.Color.Black;
+            this.btnNine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNine.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNine.ForeColor = System.Drawing.Color.White;
             this.btnNine.Location = new System.Drawing.Point(168, 224);
@@ -92,8 +92,8 @@
             // 
             // btnSix
             // 
-            this.btnSix.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnSix.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSix.BackColor = System.Drawing.Color.Black;
+            this.btnSix.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSix.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSix.ForeColor = System.Drawing.Color.White;
             this.btnSix.Location = new System.Drawing.Point(168, 279);
@@ -105,8 +105,8 @@
             // 
             // btnFive
             // 
-            this.btnFive.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnFive.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnFive.BackColor = System.Drawing.Color.Black;
+            this.btnFive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFive.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFive.ForeColor = System.Drawing.Color.White;
             this.btnFive.Location = new System.Drawing.Point(87, 279);
@@ -118,8 +118,8 @@
             // 
             // btnFour
             // 
-            this.btnFour.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnFour.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnFour.BackColor = System.Drawing.Color.Black;
+            this.btnFour.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFour.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFour.ForeColor = System.Drawing.Color.White;
             this.btnFour.Location = new System.Drawing.Point(6, 279);
@@ -131,8 +131,8 @@
             // 
             // btnTre
             // 
-            this.btnTre.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnTre.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTre.BackColor = System.Drawing.Color.Black;
+            this.btnTre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTre.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTre.ForeColor = System.Drawing.Color.White;
             this.btnTre.Location = new System.Drawing.Point(168, 334);
@@ -144,8 +144,8 @@
             // 
             // btnTwo
             // 
-            this.btnTwo.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnTwo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTwo.BackColor = System.Drawing.Color.Black;
+            this.btnTwo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTwo.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTwo.ForeColor = System.Drawing.Color.White;
             this.btnTwo.Location = new System.Drawing.Point(87, 334);
@@ -157,8 +157,8 @@
             // 
             // btnOne
             // 
-            this.btnOne.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnOne.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnOne.BackColor = System.Drawing.Color.Black;
+            this.btnOne.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOne.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOne.ForeColor = System.Drawing.Color.White;
             this.btnOne.Location = new System.Drawing.Point(6, 334);
@@ -170,8 +170,8 @@
             // 
             // btnZero
             // 
-            this.btnZero.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnZero.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnZero.BackColor = System.Drawing.Color.Black;
+            this.btnZero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZero.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnZero.ForeColor = System.Drawing.Color.White;
             this.btnZero.Location = new System.Drawing.Point(6, 389);
@@ -183,8 +183,8 @@
             // 
             // btnDot
             // 
-            this.btnDot.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnDot.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDot.BackColor = System.Drawing.Color.Black;
+            this.btnDot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDot.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDot.ForeColor = System.Drawing.Color.White;
             this.btnDot.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -198,8 +198,8 @@
             // 
             // btnCalcula
             // 
-            this.btnCalcula.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnCalcula.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCalcula.BackColor = System.Drawing.Color.Red;
+            this.btnCalcula.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCalcula.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcula.ForeColor = System.Drawing.Color.White;
             this.btnCalcula.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -213,10 +213,10 @@
             // 
             // btnSoma
             // 
-            this.btnSoma.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnSoma.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSoma.BackColor = System.Drawing.Color.Yellow;
+            this.btnSoma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSoma.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSoma.ForeColor = System.Drawing.Color.White;
+            this.btnSoma.ForeColor = System.Drawing.Color.Black;
             this.btnSoma.Location = new System.Drawing.Point(249, 228);
             this.btnSoma.Name = "btnSoma";
             this.btnSoma.Size = new System.Drawing.Size(75, 40);
@@ -226,10 +226,10 @@
             // 
             // btnSub
             // 
-            this.btnSub.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnSub.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSub.BackColor = System.Drawing.Color.Yellow;
+            this.btnSub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSub.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSub.ForeColor = System.Drawing.Color.White;
+            this.btnSub.ForeColor = System.Drawing.Color.Black;
             this.btnSub.Location = new System.Drawing.Point(249, 274);
             this.btnSub.Name = "btnSub";
             this.btnSub.Size = new System.Drawing.Size(75, 40);
@@ -239,10 +239,10 @@
             // 
             // btnMulti
             // 
-            this.btnMulti.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnMulti.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMulti.BackColor = System.Drawing.Color.Yellow;
+            this.btnMulti.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMulti.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMulti.ForeColor = System.Drawing.Color.White;
+            this.btnMulti.ForeColor = System.Drawing.Color.Black;
             this.btnMulti.Location = new System.Drawing.Point(249, 182);
             this.btnMulti.Name = "btnMulti";
             this.btnMulti.Size = new System.Drawing.Size(75, 40);
@@ -252,10 +252,10 @@
             // 
             // btnDiv
             // 
-            this.btnDiv.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnDiv.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDiv.BackColor = System.Drawing.Color.Yellow;
+            this.btnDiv.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDiv.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDiv.ForeColor = System.Drawing.Color.White;
+            this.btnDiv.ForeColor = System.Drawing.Color.Black;
             this.btnDiv.Location = new System.Drawing.Point(168, 182);
             this.btnDiv.Name = "btnDiv";
             this.btnDiv.Size = new System.Drawing.Size(75, 36);
@@ -265,10 +265,10 @@
             // 
             // btnPorcent
             // 
-            this.btnPorcent.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnPorcent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnPorcent.BackColor = System.Drawing.Color.Yellow;
+            this.btnPorcent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPorcent.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPorcent.ForeColor = System.Drawing.Color.White;
+            this.btnPorcent.ForeColor = System.Drawing.Color.Black;
             this.btnPorcent.Location = new System.Drawing.Point(87, 182);
             this.btnPorcent.Name = "btnPorcent";
             this.btnPorcent.Size = new System.Drawing.Size(75, 36);
@@ -278,8 +278,8 @@
             // 
             // btnDel
             // 
-            this.btnDel.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnDel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDel.BackColor = System.Drawing.Color.DimGray;
+            this.btnDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDel.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDel.ForeColor = System.Drawing.Color.White;
             this.btnDel.Location = new System.Drawing.Point(168, 389);
@@ -292,8 +292,8 @@
             // 
             // btnLimpar
             // 
-            this.btnLimpar.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnLimpar.BackColor = System.Drawing.Color.DimGray;
+            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpar.ForeColor = System.Drawing.Color.White;
             this.btnLimpar.Location = new System.Drawing.Point(6, 182);
@@ -306,7 +306,7 @@
             // 
             // txtResult
             // 
-            this.txtResult.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtResult.BackColor = System.Drawing.Color.Black;
             this.txtResult.ForeColor = System.Drawing.Color.White;
             this.txtResult.Location = new System.Drawing.Point(6, 156);
             this.txtResult.Name = "txtResult";
@@ -318,7 +318,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.ClientSize = new System.Drawing.Size(330, 443);
             this.Controls.Add(this.txtResult);
             this.Controls.Add(this.btnDiv);
