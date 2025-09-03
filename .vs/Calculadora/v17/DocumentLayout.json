@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Calculadora\\Calculator.cs",
               "ToolTip": "C:\\Users\\bryan\\Documents\\Calculadora\\Calculadora\\Calculator.cs",
               "RelativeToolTip": "Calculadora\\Calculator.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA5wBkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T14:17:33.005Z",
               "EditorCaption": ""
@@ -53,9 +53,10 @@
               "RelativeDocumentMoniker": "Calculadora\\Calculadora.cs",
               "ToolTip": "C:\\Users\\bryan\\Documents\\Calculadora\\Calculadora\\Calculadora.cs",
               "RelativeToolTip": "Calculadora\\Calculadora.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCAAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T17:17:35.464Z"
+              "WhenOpened": "2025-08-30T17:17:35.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -66,7 +67,8 @@
               "ToolTip": "C:\\Users\\bryan\\Documents\\Calculadora\\Calculadora\\Calculadora.cs [Design]",
               "RelativeToolTip": "Calculadora\\Calculadora.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T17:10:46.355Z"
+              "WhenOpened": "2025-08-30T17:10:46.355Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

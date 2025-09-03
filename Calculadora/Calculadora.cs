@@ -13,30 +13,33 @@ namespace Calculadora
 
         private void btnCalcula_Click(object sender, EventArgs e)
         {
-            string entrada = txtResult.Text;
+            string Entrada = txtResult.Text;
             Calculator calculator = new Calculator();
 
             try
             {
-                if (entrada.Contains('+'))
+                if (Entrada.Contains('+'))
                 {
-                    int[] numeros = entrada.Split('+').Select(n => int.Parse(n.Trim())).ToArray();
-                    txtResult.Text = calculator.Soma(numeros).ToString();
+                    string[] entrada = txtResult.Text.Split('+');
+                    int[] numeros = Array.ConvertAll(entrada, int.Parse);
+
+                    txtResult.Text = Calculator.Soma(numeros).ToString();
                 }
-                else if (entrada.Contains('-'))
+                else if (Entrada.Contains('-'))
                 {
-                    double[] numeros = entrada.Split('-').Select(n => double.Parse(n.Trim())).ToArray();
-                    txtResult.Text = calculator.Subtracao(numeros).ToString();
+                    string[] entrada = txtResult.Text.Split('-');
+                    int[] numeros = Array.ConvertAll(entrada, int.Parse);
+
+                    txtResult.Text = Calculator.Subtracao(numeros).ToString();
                 }
-                else if (entrada.Contains('*'))
+                else if (Entrada.Contains('*'))
                 {
-                    double[] numeros = entrada.Split('*').Select(n => double.Parse(n.Trim())).ToArray();
-                    txtResult.Text = calculator.Multiplicacao(numeros).ToString();
+                    
+                    
                 }
-                else if (entrada.Contains('/'))
+                else if (Entrada.Contains('/'))
                 {
-                    double[] numeros = entrada.Split('/').Select(n => double.Parse(n.Trim())).ToArray();
-                    txtResult.Text = calculator.Divisao(numeros).ToString();
+                    
                 }
             }
             catch

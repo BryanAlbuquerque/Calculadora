@@ -1,25 +1,31 @@
 ﻿using System;
+using System.Net;
 using System.Windows.Forms;
 
 namespace Calculadora
 {
     internal class Calculator
     {
-        public int Soma(params int[] numeros)
+        public static int Soma(params int[] numeros)
         {
-            int resultado = 0;
-            foreach (int n in numeros)
-                resultado += n;
-            return resultado;
+            int soma = 0;
+            for (int i = 0; i < numeros.Length; i++)
+            {
+                soma += numeros[i];
+            }
+            return soma;
         }
 
-        public double Subtracao(params double[] numeros)
+        public static int Subtracao(params int[] numeros)
         {
-            double resultado = numeros[0];
-            for (int i = 1; i < numeros.Length; i++)
-                resultado -= numeros[i];
-            return resultado;
+            int subtracao = 0;
+            for (int i = 0; i < numeros.Length; i++)
+            {
+                subtracao -= numeros[i];
+            }
+            return subtracao;
         }
+
 
         public double Multiplicacao(params double[] numeros)
         {
