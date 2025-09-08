@@ -176,7 +176,7 @@
             this.btnZero.ForeColor = System.Drawing.Color.White;
             this.btnZero.Location = new System.Drawing.Point(5, 317);
             this.btnZero.Name = "btnZero";
-            this.btnZero.Size = new System.Drawing.Size(75, 45);
+            this.btnZero.Size = new System.Drawing.Size(156, 45);
             this.btnZero.TabIndex = 9;
             this.btnZero.Text = "0";
             this.btnZero.UseVisualStyleBackColor = false;
@@ -188,7 +188,7 @@
             this.btnDot.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDot.ForeColor = System.Drawing.Color.White;
             this.btnDot.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnDot.Location = new System.Drawing.Point(86, 317);
+            this.btnDot.Location = new System.Drawing.Point(167, 316);
             this.btnDot.Name = "btnDot";
             this.btnDot.Size = new System.Drawing.Size(75, 45);
             this.btnDot.TabIndex = 10;

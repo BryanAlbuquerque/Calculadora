@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Windows.Forms;
 
 namespace Calculadora
@@ -13,39 +12,13 @@ namespace Calculadora
 
         private void btnCalcula_Click(object sender, EventArgs e)
         {
-            string Entrada = txtResult.Text;
-            Calculator calculator = new Calculator();
+            string entrada = txtResult.Text;
+            string resultado = Calculator.CalcularExpressao(entrada);
 
-            try
-            {
-                if (Entrada.Contains('+'))
-                {
-                    string[] entrada = txtResult.Text.Split('+');
-                    int[] numeros = Array.ConvertAll(entrada, int.Parse);
-
-                    txtResult.Text = Calculator.Soma(numeros).ToString();
-                }
-                else if (Entrada.Contains('-'))
-                {
-                    string[] entrada = txtResult.Text.Split('-');
-                    int[] numeros = Array.ConvertAll(entrada, int.Parse);
-
-                    txtResult.Text = Calculator.Subtracao(numeros).ToString();
-                }
-                else if (Entrada.Contains('*'))
-                {
-                    
-                    
-                }
-                else if (Entrada.Contains('/'))
-                {
-                    
-                }
-            }
-            catch
-            {
-                MessageBox.Show("Erro ao calcular. Verifique a expressão.");
-            }
+            if (resultado == "Erro na expressão")
+                MessageBox.Show("Expressão inválida. Verifique os operadores e números.");
+            else
+                txtResult.Text = resultado;
         }
 
         private void NumberButton_Click(object sender, EventArgs e)

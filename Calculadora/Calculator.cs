@@ -1,53 +1,21 @@
 ﻿using System;
-using System.Net;
-using System.Windows.Forms;
+using System.Data;
 
 namespace Calculadora
 {
     internal class Calculator
     {
-        public static int Soma(params int[] numeros)
+        public static string CalcularExpressao(string expressao)
         {
-            int soma = 0;
-            for (int i = 0; i < numeros.Length; i++)
+            try
             {
-                soma += numeros[i];
+                var resultado = new DataTable().Compute(expressao, null);
+                return resultado.ToString();
             }
-            return soma;
-        }
-
-        public static int Subtracao(params int[] numeros)
-        {
-            int subtracao = 0;
-            for (int i = 0; i < numeros.Length; i++)
+            catch
             {
-                subtracao -= numeros[i];
+                return "Erro na expressão";
             }
-            return subtracao;
-        }
-
-
-        public double Multiplicacao(params double[] numeros)
-        {
-            double resultado = 1;
-            foreach (double n in numeros)
-                resultado *= n;
-            return resultado;
-        }
-
-        public double Divisao(params double[] numeros)
-        {
-            double resultado = numeros[0];
-            for (int i = 1; i < numeros.Length; i++)
-            {
-                if (numeros[i] == 0)
-                {
-                    MessageBox.Show("Divisão por zero não é permitida.");
-                    return 0;
-                }
-                resultado /= numeros[i];
-            }
-            return resultado;
         }
     }
 }
